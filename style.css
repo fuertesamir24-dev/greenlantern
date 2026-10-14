@@ -33,3 +33,21 @@ img {
     width: 230px;
     text-align: left;
 }
+.boton-video {
+    text-align: center;
+    margin: 30px 0;
+}
+.boton-video a {
+    display: inline-block;
+    background-color: #e90707;
+    color:white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.boton-video a:hover {
+    background-color: #ec0c0c;
+    transform: scale(1.05);
+}
