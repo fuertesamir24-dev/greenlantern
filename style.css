@@ -5,7 +5,7 @@ body {
     background-attachment: fixed;
     margin: 0;
     min-height: 100vh;
-    color:beige;
+    color:rgb(2, 2, 2);
     text-align: center;
 }
 img {
@@ -28,26 +28,25 @@ img {
 }
 .poderes {
     position: absolute;
-    left: 455px;
-    top: 500px;
+    left: 400px;
+    top: 539px;
     width: 230px;
     text-align: left;
 }
-.boton-video {
-    text-align: center;
-    margin: 30px 0;
-}
-.boton-video a {
-    display: inline-block;
-    background-color: #e90707;
-    color:white;
-    padding: 12px 25px;
-    text-decoration: none;
+.razones,
+.poderes {
+    background-color: rgba(238, 255, 0, 0.89);
+    padding: 5px;
     border-radius: 8px;
-    font-weight: bold;
-    transition: 0.3s;
+    border: 1px solid rgba(201, 253, 11, 0.932);
+    box-shadow: 0 0px 10px rgba(157, 255, 0, 0.726);
+    box-sizing: border-box;
+    padding-top: 0%;
+
+    width: 20%;
+    font: size 10px;
 }
-.boton-video a:hover {
-    background-color: #ec0c0c;
-    transform: scale(1.05);
+.juramento {
+    background-color:rgba(238, 255, 0, 0.89)
 }
+   
