@@ -15,38 +15,41 @@ body {
     box-sizing: border-box;
 }
 img {
-    width: 190px;
+    width: 250px;
     height: auto;
     filter: drop-shadow(0 0 10px rgba (0, 200, 83, 0.5));
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    margin-top: 34px;
+    border: 1px solid rgba(201, 253, 11, 0.932);
+    box-shadow: 0 0px 10px rgba(157, 255, 0, 0.726);
 }
 .razones {
     position: absolute;
     left: 40px;
-    top: 500px;
+    top: 739px;
     width: 250px;
     text-align: left;
 }
 .razones h2 {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .razones p {
     text-align:left;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .poderes h2 {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 .poderes p {
     text-align: left;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .poderes {
     position: absolute;
     left: 400px;
-    top: 539px;
+    top: 739px;
     width: 230px;
     text-align: left;
 }
@@ -67,8 +70,13 @@ img {
     .juramento { 
         background-color:  rgba(238, 255, 0, 0.89);
         padding: 15px;
-        border-radius: 8px;
+        border-radius: 6px;
         border: 1px solid rgba(201, 253, 11, 0.932);
+        box-shadow: 0 0px 10px rgba(157, 255, 0, 0.726);
+        box-sizing: border-box;
+        width: 433px;
+        min-height: 130px;
+        font-size: 15px;
     }
 .videoyoutube {
     display: inline-flex;
@@ -93,5 +101,5 @@ img {
 .villanos {
     position:absolute;
     left: 750px;
-
+    top: 739px;
 }
