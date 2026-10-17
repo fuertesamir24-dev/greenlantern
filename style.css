@@ -20,15 +20,6 @@ img {
     filter: drop-shadow(0 0 10px rgba (0, 200, 83, 0.5));
     margin-bottom: 20px;
 }
-.contenedor-secciones {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 30px;
-    max-width: 1000px;
-    width: 100%;
-    margin-top: 20px;
-}
 .razones {
     position: absolute;
     left: 40px;
@@ -44,6 +35,14 @@ img {
     text-align:left;
     margin-bottom: 20px;
 }
+.poderes h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+.poderes p {
+    text-align: left;
+    margin-bottom: 20px;
+}
 .poderes {
     position: absolute;
     left: 400px;
@@ -54,19 +53,21 @@ img {
 .razones,
 .poderes {
     background-color: rgba(238, 255, 0, 0.89);
-    padding: 5px;
+    padding: 15px;
     border-radius: 8px;
     border: 1px solid rgba(201, 253, 11, 0.932);
     box-shadow: 0 0px 10px rgba(157, 255, 0, 0.726);
     box-sizing: border-box;
-    padding-top: 0%;
-
-    width: 20%;
-    font: size 10px;
+    width: 300px;
+    min-height: 300px;
+    font-size: 15px; 
 }
-.juramento {
-    background-color:rgba(238, 255, 0, 0.89)
-}
+    .juramento { 
+        background-color:  rgba(238, 255, 0, 0.89);
+        padding: 15px;
+        border-radius: 8px;
+        border: 1px solid rgba(201, 253, 11, 0.932);
+    }
 .videoyoutube {
     display: inline-flex;
     align-items: center;
